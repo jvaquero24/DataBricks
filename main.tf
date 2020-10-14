@@ -8,7 +8,4 @@ resource "azurerm_databricks_workspace" "ADB" {
   location            = var.location
   sku                 = "standard"
 
-  tags = {
-    Environment = "Production"
-  }
 }
