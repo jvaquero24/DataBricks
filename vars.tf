@@ -1,4 +1,4 @@
-variable "name_databrick" {
+variable "data_brick_name" {
   type        = string
 }
 variable "location" {
