@@ -3,7 +3,7 @@ data "azurerm_resource_group" "RG" {
 }
 
 resource "azurerm_databricks_workspace" "ADB" {
-  name                = var.name_databrick
+  name                = var.name
   resource_group_name = data.azurerm_resource_group.RG.name
   location            = var.location
   sku                 = var.sku
